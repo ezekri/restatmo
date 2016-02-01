@@ -6,7 +6,7 @@ import urllib2
 
 # User identification data
 _CLIENT_ID     		= "xxxxxxxxxxxxx"   #client ID from http://dev.netatmo.com/dev/listapps
-_CLIENT_SECRET 		= "xxxxxxxxxxxx"   #client app secret   '     '
+_CLIENT_SECRET 		= "xxxxxxxxxxxx"   #client app secret
 _USERNAME      		= "xxxxx@xxx.xxx"   #netatmo username
 _PASSWORD      		= "xxxxxxxxx"   # netatmo password
 

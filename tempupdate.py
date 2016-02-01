@@ -50,4 +50,5 @@ class TempUpdate:
 if __name__ == "__main__":
     updater = TempUpdate(TEMP_UPDATE_INTERVAL)
     updater.start()
+
     
