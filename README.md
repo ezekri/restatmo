@@ -47,8 +47,8 @@ sudo chmod 755 /etc/init.d/restatmo
 sudo update-rc.d restatmo defaults
 
 # start/stop/status restatmo service
-sudo service homegw start
+sudo service restatmo start
 
-sudo service homegw stop
+sudo service restatmo stop
 
-sudo service homegw status
+sudo service restatmo status
