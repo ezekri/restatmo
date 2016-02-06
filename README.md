@@ -54,6 +54,8 @@ sudo update-rc.d restatmo defaults
 
 In restatmo folder do this:
 
+Set up Fibaro Home Center authentication parameters and Virtual Device ID in tempupdate.py 
+
 chmod +x tempupdate.py
 
 sudo cp tempupdate /etc/init.d/
@@ -62,7 +64,7 @@ sudo chmod 755 /etc/init.d/tempupdate
 
 sudo update-rc.d tempupdate defaults
 
-(Don't forget to set up Fibaro Home Center authentication parameters and Virtual Device ID) 
+
 
 # start/stop/status restatmo service
 sudo service restatmo start
