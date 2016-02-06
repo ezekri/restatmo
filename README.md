@@ -50,7 +50,7 @@ sudo chmod 755 /etc/init.d/restatmo
 
 sudo update-rc.d restatmo defaults
 
-- If you want to update temperature of Fibaro Home Center netatmo virtual device, configure tempupdate service like this
+- (Optional) If you want to update temperature of Fibaro Home Center netatmo virtual device, configure tempupdate service like this
 
 In restatmo folder do this:
 
